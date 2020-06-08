@@ -1,0 +1,23 @@
+¿Cuáles son los atributos de clean code?
+
+-Nombres descriptivos (Legibilidad de la Fuente)
+-Comentarios informativos, no demasiados, que el código se explique solo (Legibilidad de la Fuente)
+-Estructuración correcta de elementos donde se espera que estén (Organización de Elementos)
+-Pruebas unitarias (Certeza de Funcionamiento)
+-Descomponer funcionalidades grandes en tareas individuales utilizando programación funcional.
+
+¿Qué estándares consideraría para decir que un proyecto es "exitoso"?
+
+-Aprobación de estándares de cálidad definidos.
+-Pruebas unitarias superadas.
+-Desarrollo efectivo de requerimientos no funcionales establecidos.
+-Aprobación del cliente.
+-Rendimiento soportado por métricas medidas.
+
+¿Qué patrones conoces? ¿como los usas?
+
+-Observer: Cuando necesito enterarme de cambios sobre una instancia la convierto en observable y hago suscripciones
+-Adapter: Una instancia intermedia entre objetos de librerías y objetos de mi propio código
+-Singleton: limita a uno el número de instancias posibles de una clase en nuestro programa, y proporciona un acceso global al mismo.
+-Dependency injection: Se suministra una instancia previamente creada a una clase que la necesite
+-State: Permite modificar la forma en que un objeto se comporta en tiempo de ejecución, basándose en su estado interno.
